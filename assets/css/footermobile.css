@@ -1,0 +1,19 @@
+@media only screen and (max-width:897px){
+
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2em;
+        height: 250px;
+        background-color:  #23272A;
+    }
+    .footer img{
+        display: flex;
+        width: 200px;
+        height: 20px;
+    }
+
+}
+

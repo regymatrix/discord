@@ -97,3 +97,98 @@
     margin-bottom: 5px;
 }
 
+
+.sessao03{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: rgb(201, 199, 199);
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.s3direita{    
+    width: 600px ;
+    height: 390px;
+}
+
+.s3esquerda{    
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.s3esquerda h2{
+    font-size: 40px;    
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.sessao04{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: rgb(201, 199, 199);
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.s4esquerda{    
+    width: 600px ;
+    height: 390px;
+}
+.s4direita{    
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.s4direita h2{
+    font-size: 40px;    
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sessao05{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(201, 199, 199);
+    justify-content: center;
+    align-items: center;
+    width: 60%;    
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5em;
+    padding-bottom: 1.5em;
+}
+.sessao05 h2{
+    text-align: center;
+    font-size: 40px;    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.sessao05 span{
+    width: 80%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2em;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color:#23272A;
+}
+.footer img{
+    width: 200px;
+    height: 100px;
+}

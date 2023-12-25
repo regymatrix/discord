@@ -1,0 +1,39 @@
+@media only screen and (max-width:897px){
+
+    .sessao05{
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        background-color: rgb(201, 199, 199);
+        justify-content: start;
+        align-items: center;
+        width: 100%;            
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 2em;
+    }
+    .sessao05 h2{
+        text-align: center;
+        font-size: 25px;          
+        margin-bottom: 5px;
+        margin-top:1.5em;
+        font-family: 'Luckiest Guy', cursive;        
+    }
+    .sessao05 span{
+        width: 90%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 1.5em;
+        font-size: 16px;
+   
+    }
+    .sessao05 img{
+        width: 400px;
+        height: 200px;
+    }
+    
+    
+
+
+}
