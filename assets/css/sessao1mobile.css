@@ -1,0 +1,56 @@
+
+@media only screen and (max-width:897px){
+    .main{
+        display: flex;    
+        flex-wrap: wrap;
+        flex-direction: column;    
+        width: 100%;
+    }
+    
+    .sessao01{
+        display: flex;    
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 45vh;
+        background-image: url('../img/fundoSessao01.svg');
+        background-position: right top;
+        color: #ffffff;        
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .s1titulo{        
+        text-align: left;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 1.5rem;
+    }
+    .s1texto{    
+        text-align: left;
+        margin-top: 1px;
+        margin-left: 2rem;
+        margin-right: 2rem;  
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;        
+    }
+    .s1botoes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .botaoBaixar{   
+        width: 280px;   
+        margin-bottom: 1.5rem;
+    }
+    .botaoAbrirDiscord{        
+        width: 280px;       
+        margin-left: 0px; 
+    }
+}

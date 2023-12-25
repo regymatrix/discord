@@ -1,0 +1,99 @@
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;    
+    flex-direction: column;    
+    width: 100%;
+}
+
+.sessao01{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url('../img/fundoSessao01.svg');
+    background-size: cover ;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.s1titulo{
+    
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400px;
+    font-size: 56px;
+    line-height: 56px;
+}
+.s1texto{
+    
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+}
+.s1botoes{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.botaoBaixar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 44px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.botaoAbrirDiscord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 44px;
+    background-color: black;
+    border-radius: 2rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+
+.sessao02{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: rgb(201, 199, 199);
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.s2esquerda{    
+    width: 600px ;
+    height: 390px;
+}
+.s2direita{    
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.s2direita h2{
+    font-size: 40px;    
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
